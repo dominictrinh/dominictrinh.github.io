@@ -60,7 +60,8 @@
         <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z" />
       </symbol>
       <symbol xmlns="http://www.w3.org/2000/svg" id="navbar-icon" viewBox="0 0 16 16">
-        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" />
+        <!-- Set the fill attribute to white (#FFFFFF) -->
+        <path d="M14 10.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-7a.5.5 0 0 0 0 1h7a.5.5 0 0 0 .5-.5zm0-3a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0 0 1h11a.5.5 0 0 0 .5-.5z" fill="#FFFFFF" />
       </symbol>
     </svg>
 
@@ -90,34 +91,28 @@
             </div>
             <div class="offcanvas-body">
               <ul id="navbar" class="navbar-nav text-uppercase justify-content-end align-items-center flex-grow-1 pe-3">
-                <li class="nav-item dropdown">
-                  <a class="nav-link me-4 active dropdown-toggle" href="#billboard" id="dropdownPages" data-bs-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Home</a><ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownPages">
-                    <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Homepage 1</a>
-                    </li>
-                    <li>
-                      <a href="home2.html" class="dropdown-item item-anchor">Homepage V2 <span class="badge bg-secondary text-dark ms-2">PRO</span></a>
-                    </li>
-                  </ul>
-                </li>
+
+<!--                May need this for something-->
+<!--                <li class="nav-item dropdown">-->
+<!--                  <a class="nav-link me-4 active dropdown-toggle" href="#billboard" id="dropdownPages" data-bs-toggle="dropdown"-->
+<!--                  aria-haspopup="true" aria-expanded="false">Home</a><ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownPages">-->
+<!--                    <li>-->
+<!--                      <a href="index.html" class="dropdown-item item-anchor">Homepage 1</a>-->
+<!--                    </li>-->
+<!--                    <li>-->
+<!--                      <a href="home2.html" class="dropdown-item item-anchor">Homepage V2 <span class="badge bg-secondary text-dark ms-2">PRO</span></a>-->
+<!--                    </li>-->
+<!--                  </ul>-->
+<!--                </li>-->
+
                 <li class="nav-item">
                   <a class="nav-link me-4" href="#introduction">Introduction</a>
                 </li>
-                <li class="nav-item dropdown me-4">
-                  <a class="nav-link dropdown-toggle" href="#" id="dropdownPages" data-bs-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">Projects</a>
-                  <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownPages">
-                    <li>
-                      <a href="blog-classic.html" class="dropdown-item item-anchor">Projects 1<span class="badge bg-secondary text-dark ms-2">PRO</span></a>
-                    </li>
-                    <li>
-                      <a href="blog-grid-four-column.html" class="dropdown-item item-anchor">Projects 2<span class="badge bg-secondary text-dark ms-2">PRO</span></a>
-                    </li>
-                    <li>
-                      <a href="blog-with-sidebar.html" class="dropdown-item item-anchor">Projects 3<span class="badge bg-secondary text-dark ms-2">PRO</span></a>
-                    </li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-4" href="#About Us">About Us</a>
                 </li>
 
               </ul>

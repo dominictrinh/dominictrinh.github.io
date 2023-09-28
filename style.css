@@ -33,7 +33,7 @@ CSS STRUCTURE:
   --bs-body-bg-rgb: 0, 0, 0;
   --bs-light: #fff;
   --bs-dark: #000;
-  --navbar-color-color: #131814;
+  --navbar-color-color: #fff;
   --swiper-theme-color: #787d62 !important;
   --swiper-pagination-color: #787d62 !important;
 }
@@ -44,6 +44,10 @@ CSS STRUCTURE:
   :root {
     --header-height: 100px;
     --header-height-min: 80px;
+  }
+
+  .navbar-nav .nav-item a.nav-link {
+    color: black;
   }
 }
 
@@ -769,8 +773,16 @@ h5 {
   transition: background 0.3s ease-out;
 }
 
+/* on mobile devices below 600px
+ */
+@media screen and (max-width: 990px) {
+  .navbar-nav .nav-item a.nav-link {
+    color: black;
+  }
+}
+
 .navbar-nav .nav-item a.nav-link {
-  color: var(--accent-color);
+  color: white;
 }
 
 .navbar-nav .nav-item a.nav-link.active,
@@ -800,11 +812,13 @@ h5 {
 
 .offcanvas.show .nav-item a.nav-link {
   font-size: 2em;
+  border-radius: 25px;
 }
 
 .offcanvas.show .offcanvas-body .navbar-nav {
   align-items: unset !important;
   padding-left: 20px;
+  border-radius: 25px;
 }
 
 /*------------ Top User Icons -----------*/
