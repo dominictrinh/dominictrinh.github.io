@@ -25,8 +25,8 @@ CSS STRUCTURE:
   --bs-light: #fff;
   --bs-dark: #000;
   --navbar-color-color: #fff;
-  --swiper-theme-color: #787d62 !important;
-  --swiper-pagination-color: #787d62 !important;
+  --swiper-theme-color: #fff !important;
+  --swiper-pagination-color: #fff !important;
 }
 
 /* on mobile devices below 600px
@@ -168,6 +168,7 @@ h3,
 h4,
 h5 {
   font-family: var(--heading-font);
+  color: #fff !important;
 }
 
 /* - Section width
@@ -854,7 +855,7 @@ h5 {
   left: 0;
   right: 0;
   border-radius: 50px;
-  border: 1px solid #4a4a4a;
+  border: 2px solid #ffffff;
   transform: scale(1);
   transition: transform 0.3s ease-out;
 }
